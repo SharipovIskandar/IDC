@@ -1,0 +1,5 @@
+.idea
+vendor
+.env
+public/styles/main.css
+node_modules
