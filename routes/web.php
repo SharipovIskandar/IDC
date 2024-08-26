@@ -3,16 +3,14 @@
 declare(strict_types=1);
 
 use App\Router;
-if(!$_SESSION['email']) {
-    Router::get('/', fn() => loadView('auth/login'));
+    Router::get('/login', fn() => loadView('auth/login'));
     Router::get('/signup', fn() => loadView('auth/signup'));
 
     Router::post('/signup', fn() => (new \Controller\AuthConteroller())->signup());
     Router::post('/login', fn() => (new \Controller\AuthConteroller())->login());
 
     Router::get('/forget/password', fn() => (new \Controller\AuthConteroller())->forgotPassword());
-}
-if($_SESSION['email']) {
+
     Router::get('/', fn() => (new \Controller\AdController())->index());
 
     Router::get('/branch', fn() => loadController('branch'));
@@ -33,5 +31,5 @@ if($_SESSION['email']) {
     Router::post('/ads/create', fn() => (new Controller\AdController())->create());
 
     Router::get('/logout', fn()=> (new \Controller\AuthConteroller())->logout());
-}
+
 Router::errorResponse(404, 'Not Found');

@@ -135,10 +135,10 @@ ini_set('display_errors', '1');
                     <div class="flex items-center space-x-1">
                         <!-- Logo -->
                         <a href="#" class="xl:hidden block me-2">
-                            <img src="../assets/images/logo-icon-32.png" class="md:hidden block" alt="">
+                            <img src="../../assets/images/logo-icon-32.png" class="md:hidden block" alt="">
                             <span class="md:block hidden">
-                                    <img src="assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
-                                    <img src="assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                                    <img src="../../assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                                    <img src="../../assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                                 </span>
                         </a>
                         <!-- Logo -->
@@ -163,7 +163,7 @@ ini_set('display_errors', '1');
                         <!-- Country Dropdown -->
                         <li class="dropdown inline-block relative">
                             <button data-dropdown-toggle="dropdown" class="dropdown-toggle size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md" type="button">
-                                <img src="../assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
+                                <img src="../../assets/images/flags/usa.png" class="size-6 rounded-md" alt="">
                             </button>
                             <!-- Dropdown menu -->
                             <div class="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-36 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 hidden" onclick="event.stopPropagation();">
@@ -214,7 +214,7 @@ ini_set('display_errors', '1');
                                     <li>
                                         <a href="#!" class="block font-medium py-1.5 px-4">
                                             <div class="flex items-center">
-                                                <img src="assets/images/client/04.jpg" class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
+                                                <img src="../../assets/images/client/04.jpg" class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                                 <div class="ms-2">
                                                     <span class="text-[15px] font-medium block"><span class="font-semibold">Message</span> from Luis</span>
                                                     <small class="text-slate-400">1 hour ago</small>
@@ -251,7 +251,7 @@ ini_set('display_errors', '1');
                                     <li>
                                         <a href="#!" class="block font-medium py-1.5 px-4">
                                             <div class="flex items-center">
-                                                <img src="assets/images/client/05.jpg" class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
+                                                <img src="../../assets/images/client/05.jpg" class="size-10 rounded-md shadow dark:shadow-gray-700" alt="">
                                                 <div class="ms-2">
                                                     <span class="text-[15px] font-medium block"><span class="font-semibold">Cally</span> started following you</span>
                                                     <small class="text-slate-400">2 days ago</small>
@@ -528,7 +528,7 @@ ini_set('display_errors', '1');
                                                 <tr>
                                                     <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                                         <div class="relative md:shrink-0">
-                                                            <img src="assets/images/property/1.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                            <img src="../../assets/images/property/1.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                         </div>
                                                     </th>
                                                     <td class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3">
@@ -547,7 +547,7 @@ ini_set('display_errors', '1');
                                                 <tr>
                                                     <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                                         <div class="relative md:shrink-0">
-                                                            <img src="assets/images/property/2.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                            <img src="../../assets/images/property/2.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                         </div>
                                                     </th>
                                                     <td class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3">
@@ -566,7 +566,7 @@ ini_set('display_errors', '1');
                                                 <tr>
                                                     <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                                         <div class="relative md:shrink-0">
-                                                            <img src="assets/images/property/3.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                            <img src="../../assets/images/property/3.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                         </div>
                                                     </th>
                                                     <td class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3">
@@ -585,7 +585,7 @@ ini_set('display_errors', '1');
                                                 <tr>
                                                     <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                                         <div class="relative md:shrink-0">
-                                                            <img src="assets/images/property/4.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                            <img src="../../assets/images/property/4.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                         </div>
                                                     </th>
                                                     <td class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3">
@@ -604,7 +604,7 @@ ini_set('display_errors', '1');
                                                 <tr>
                                                     <th class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3 font-semibold">
                                                         <div class="relative md:shrink-0">
-                                                            <img src="assets/images/property/5.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                            <img src="../../assets/images/property/5.jpg" class="object-cover size-12 min-w-[48px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                         </div>
                                                     </th>
                                                     <td class="text-start border-t border-gray-100 dark:border-gray-800 px-4 py-3">
@@ -637,7 +637,7 @@ ini_set('display_errors', '1');
                                             <div class="flex justify-between items-center">
                                                 <div class="flex items-center">
                                                     <div class="relative md:shrink-0">
-                                                        <img src="assets/images/property/1.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                        <img src="../../assets/images/property/1.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                     </div>
 
                                                     <div class="ms-2">
@@ -652,7 +652,7 @@ ini_set('display_errors', '1');
                                             <div class="flex justify-between items-center mt-4">
                                                 <div class="flex items-center">
                                                     <div class="relative md:shrink-0">
-                                                        <img src="assets/images/property/2.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                        <img src="../../assets/images/property/2.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                     </div>
 
                                                     <div class="ms-2">
@@ -667,7 +667,7 @@ ini_set('display_errors', '1');
                                             <div class="flex justify-between items-center mt-4">
                                                 <div class="flex items-center">
                                                     <div class="relative md:shrink-0">
-                                                        <img src="assets/images/property/3.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                        <img src="../../assets/images/property/3.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                     </div>
 
                                                     <div class="ms-2">
@@ -682,7 +682,7 @@ ini_set('display_errors', '1');
                                             <div class="flex justify-between items-center mt-4">
                                                 <div class="flex items-center">
                                                     <div class="relative md:shrink-0">
-                                                        <img src="assets/images/property/4.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                        <img src="../../assets/images/property/4.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                     </div>
 
                                                     <div class="ms-2">
@@ -697,7 +697,7 @@ ini_set('display_errors', '1');
                                             <div class="flex justify-between items-center mt-4">
                                                 <div class="flex items-center">
                                                     <div class="relative md:shrink-0">
-                                                        <img src="assets/images/property/5.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
+                                                        <img src="../../assets/images/property/5.jpg" class="object-cover size-14 min-w-[56px] rounded-md shadow dark:shadow-gray-700" alt="">
                                                     </div>
 
                                                     <div class="ms-2">
@@ -750,14 +750,14 @@ ini_set('display_errors', '1');
     <!-- LTR & RTL Mode Code -->
 
     <!-- JAVASCRIPTS -->
-    <script src="../assets/libs/jsvectormap/jsvectormap.min.js"></script>
-    <script src="../assets/libs/jsvectormap/maps/world.js"></script>
-    <script src="../assets/js/jsvectormap.init.js"></script>
-    <script src="../assets/libs/apexcharts/apexcharts.min.js"></script>
-    <script src="../assets/libs/feather-icons/feather.min.js"></script>
-    <script src="../assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="../assets/js/plugins.init.js"></script>
-    <script src="../assets/js/app.js"></script>
+    <script src="../../assets/libs/jsvectormap/jsvectormap.min.js"></script>
+    <script src="../../assets/libs/jsvectormap/maps/world.js"></script>
+    <script src="../../assets/js/jsvectormap.init.js"></script>
+    <script src="../../assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
+    <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="../../assets/js/plugins.init.js"></script>
+    <script src="../../assets/js/app.js"></script>
     <!-- JAVASCRIPTS -->
     </body>
 <?php loadPartials('footer'); ?>
