@@ -5,7 +5,6 @@ loadPartials('navbar');
 error_reporting(E_ALL);
 
 // Xatolarni brauzerda ko'rsatish
-ini_set('display_errors', '1');
 /**
  * @var $ads
 */

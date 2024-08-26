@@ -6,6 +6,7 @@ use App\Router;
     Router::get('/login', fn() => loadView('auth/login'));
     Router::get('/signup', fn() => loadView('auth/signup'));
 
+
     Router::post('/signup', fn() => (new \Controller\AuthConteroller())->signup());
     Router::post('/login', fn() => (new \Controller\AuthConteroller())->login());
 
@@ -21,7 +22,8 @@ use App\Router;
     Router::get('/status/create', fn() => loadView('dashboard/create-status'));
     Router::post('/status/create', fn() => loadController('createStatus'));
 
-    Router::get('/dashboard', fn() => (new \Controller\AdController())->dashboard());
+    Router::get('/dashboard', fn() => loadView(path:'dashboard/dashboard'));
+    Router::get('/profile', fn() => loadView(path: 'profile'));
 
     Router::get('/ads/{id}', function (int $id) {
         (new \Controller\AdController())->show($id);

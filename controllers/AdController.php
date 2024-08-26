@@ -57,8 +57,5 @@ class AdController
         loadView('home', ['ads' => $ads]);
     }
 
-    public function dashboard()
-    {
-        loadView('dashboard/dashboard');
-    }
+
 }
